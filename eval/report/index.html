@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>PixelDraft Evaluation</title>
+<style>
+body{font-family:system-ui,sans-serif;background:#0e1726;color:#e8eef7;margin:0;padding:32px}
+h1{font-family:monospace} .card{background:#131d30;border:1px solid #24324d;border-radius:12px;padding:20px;margin:20px 0}
+.metrics{font-family:monospace;color:#5cc8ff;margin:8px 0 16px} .imgs{display:flex;gap:16px;flex-wrap:wrap}
+figure{margin:0;flex:1;min-width:320px} figcaption{font-family:monospace;font-size:12px;color:#8094b3;margin-bottom:6px}
+img{width:100%;border:1px solid #24324d;border-radius:8px;background:#fff}
+</style></head><body>
+<h1>PixelDraft — Real-World Evaluation</h1>
+<p>End-to-end results on real screenshots the model never saw in training.</p>
+
+      <div class="card">
+        <h3>dashboard_test.png.jpeg</h3>
+        <div class="metrics">elements: <b>27</b> &nbsp; avg conf: <b>0.633</b> &nbsp; SSIM: <b>n/a</b></div>
+        <div class="imgs">
+          <figure><figcaption>detected</figcaption><img src="assets/dashboard_test.png_det.png"></figure>
+          <figure><figcaption>generated render</figcaption><img src="assets/dashboard_test.png_render.png" onerror="this.style.opacity=0.2"></figure>
+        </div>
+      </div>
+      <div class="card">
+        <h3>design 2.png.jpeg</h3>
+        <div class="metrics">elements: <b>28</b> &nbsp; avg conf: <b>0.639</b> &nbsp; SSIM: <b>n/a</b></div>
+        <div class="imgs">
+          <figure><figcaption>detected</figcaption><img src="assets/design 2.png_det.png"></figure>
+          <figure><figcaption>generated render</figcaption><img src="assets/design 2.png_render.png" onerror="this.style.opacity=0.2"></figure>
+        </div>
+      </div>
+      <div class="card">
+        <h3>design 3.png.jpeg</h3>
+        <div class="metrics">elements: <b>15</b> &nbsp; avg conf: <b>0.593</b> &nbsp; SSIM: <b>n/a</b></div>
+        <div class="imgs">
+          <figure><figcaption>detected</figcaption><img src="assets/design 3.png_det.png"></figure>
+          <figure><figcaption>generated render</figcaption><img src="assets/design 3.png_render.png" onerror="this.style.opacity=0.2"></figure>
+        </div>
+      </div>
+      <div class="card">
+        <h3>design 4.png.jpeg</h3>
+        <div class="metrics">elements: <b>20</b> &nbsp; avg conf: <b>0.734</b> &nbsp; SSIM: <b>n/a</b></div>
+        <div class="imgs">
+          <figure><figcaption>detected</figcaption><img src="assets/design 4.png_det.png"></figure>
+          <figure><figcaption>generated render</figcaption><img src="assets/design 4.png_render.png" onerror="this.style.opacity=0.2"></figure>
+        </div>
+      </div>
+      <div class="card">
+        <h3>design.png.jpeg</h3>
+        <div class="metrics">elements: <b>6</b> &nbsp; avg conf: <b>0.561</b> &nbsp; SSIM: <b>n/a</b></div>
+        <div class="imgs">
+          <figure><figcaption>detected</figcaption><img src="assets/design.png_det.png"></figure>
+          <figure><figcaption>generated render</figcaption><img src="assets/design.png_render.png" onerror="this.style.opacity=0.2"></figure>
+        </div>
+      </div>
+</body></html>

@@ -1,0 +1,19 @@
+# data + model artifacts
+data_gen/dataset/
+data_gen/testset/
+data_gen/trainset/
+data_gen/sample.html
+**/runs/
+*.pt
+!yolov8n.pt
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# node
+node_modules/
+.next/
+.env.local
+# os
+.DS_Store
