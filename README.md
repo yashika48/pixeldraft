@@ -109,8 +109,15 @@ cd frontend && npm install && npm run dev          # http://localhost:3000
 
 See `eval/` for the evaluation gallery and metrics. Demo and before/after (v1 vs v2 on dense layouts)
 in the screenshots below.
+<img width="1088" height="576" alt="demo " src="https://github.com/user-attachments/assets/f52c0c93-fd3e-4180-9a54-7c9c6e7f7b59" />
 
-<!-- TIP: add your demo GIF and 2-3 result screenshots here -->
+<img width="1599" height="759" alt="WhatsApp Image 2026-06-26 at 8 53 39 PM" src="https://github.com/user-attachments/assets/f6036fee-abb2-4db8-9594-1accd9207e10" />
+<img width="1600" height="749" alt="WhatsApp Image 2026-06-26 at 8 57 43 PM" src="https://github.com/user-attachments/assets/21eb141b-c7a4-4576-9775-90da2e2a446b" />
+
+<img width="1599" height="748" alt="WhatsApp Image 2026-06-26 at 8 56 37 PM" src="https://github.com/user-attachments/assets/4be8501b-e554-44aa-82d7-d14956998ad2" />
+
+
+
 
 ---
 
